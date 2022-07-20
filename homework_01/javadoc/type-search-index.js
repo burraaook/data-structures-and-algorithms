@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"CityPlanningGTU","l":"CityBuilding"},{"p":"CityPlanningGTU","l":"CityStreet"},{"p":"CityPlanningGTU","l":"House"},{"p":"CityPlanningGTU","l":"Market"},{"p":"CityPlanningGTU","l":"Office"},{"p":"CityPlanningGTU","l":"Playground"}];updateSearchResults();

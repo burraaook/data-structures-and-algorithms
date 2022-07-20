@@ -1,0 +1,1345 @@
+___TESTING CityBuildings___
+---TESTING House---
+
+
+house1 and house2 created. house2 is created with no parameter constructor.
+
+house1 and house2 is declared as CityBuilding class.
+
+house1 = House      3   15  20  burak      red        4         
+house2 = House      5   5   5   none       white      1         
+
+Calling CityBuilding class getters = 3 15 20
+Checking equality with equals method.
+house1.equals(house2) returns = false
+
+house3 created with using clone() method. And the result is downcasted to House class.
+house3 = House      3   15  20  burak      red        4         
+house1.equals(house3) returns = true
+house3 is changed with its accessors.
+House classes getters returns = elma black 7
+house1.focus() returns(called from CityBuilding class) = burak
+house3.hashCode() = 96935758
+
+---TESTING Market---
+
+
+market1 and market2 created. market2 is created with no parameter constructor.
+
+market1 and market2 is declared as CityBuilding class.
+
+market1 = Market     21  10  17  john       08:00      21:00     
+house2 = Market     5   5   5   none       08:00      21:00     
+
+Calling CityBuilding class getters = 21 10 17
+Checking equality with equals method.
+market1.equals(market2) returns = false
+
+market3 created with using clone() method. And the result is downcasted to Market class.
+market3 = Market     21  10  17  john       08:00      21:00     
+market1.equals(market3) returns = true
+market3 is changed with its accessors.
+Market classes getters returns = elma 13:00 23:30
+market1.focus() returns(called from CityBuilding class) = 21:00
+market3.hashCode() = 97698792
+
+---TESTING Office---
+
+
+office1 and office2 created. office2 is created with no parameter constructor.
+
+office1 and office2 is declared as CityBuilding class.
+
+office1 = Office     19  10  15  alice      sales                
+house2 = Office     5   5   5   none       none                 
+
+Calling CityBuilding class getters = 19 10 15
+Checking equality with equals method.
+office1.equals(office2) returns = false
+
+office3 created with using clone() method. And the result is downcasted to Office class.
+office3 = Office     19  10  15  alice      sales                
+office1.equals(office3) returns = true
+office3 is changed with its accessors.
+Office classes getters returns = elma medical
+office1.focus() returns(called from CityBuilding class) = sales
+office3.hashCode() = 943892895
+
+---TESTING Playground---
+
+
+playground1 and playground2 created. playground2 is created with no parameter constructor.
+
+playground1 and playground2 is declared as CityBuilding class.
+
+playground1 = Playground 22  11  1  
+house2 = Playground 1   1   1  
+
+Calling CityBuilding class getters = 22 11 1
+
+Checking equality with equals method.
+playground1.equals(playground2) returns = false
+
+playground3 created with using clone() method. And the result is downcasted to Playground class.
+playground3 = Playground 22  11  1  
+playground1.equals(playground3) returns = true
+playground1.focus() returns(called from CityBuilding class) = 11
+playground3.hashCode() = 2739
+
+___TESTING BasicArrayStreet class___
+
+
+Empty Street created.
+
+Length of Street is = 55
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+---------------------------
+
+
+House created
+
+House      6   7   5   burak      green      3         
+---------------------------
+
+
+Market created
+
+Market     0   8   20  james      08:00      21:00     
+---------------------------
+
+
+Office created
+
+Office     10  12  20  rachel     consulting           
+---------------------------
+
+
+Playground created
+
+Playground 31  4   1  
+---------------------------
+
+
+house, market, office, and playground are added to street.
+
+
+__Front Side Buildings__
+
+1-  House      6   7   5   burak      green      3         
+2-  Playground 31  4   1  
+
+__Back Side Buildings__
+
+3-  Market     0   8   20  james      08:00      21:00     
+4-  Office     10  12  20  rachel     consulting           
+
+---------------------------
+
+
+All buildings are removed from class with 4 overloaded delete methods.
+
+
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+---------------------------
+
+
+Buildings are added to street oppositely.
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+
+__Back Side Buildings__
+
+3-  House      6   7   5   burak      green      3         
+4-  Playground 31  4   1  
+
+Total remaining lands = 81
+Total number of Buildings = 4
+
+Number of playgrounds = 1
+Ratio of playgrounds = % 7.273
+
+Total length of Market(s) = 8
+Total length of House(s) = 7
+Total length of Office(s) = 12
+---------------------------
+
+
+Skyline Silhouette of Street
+
+________  ____________              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |__|          |              
+|                    |              
+|                    |              
+|                    |              
+|                    |         ____ 
+=======================================================
+0    5    10   15   20   25   30   35   40   45   50   55   
+
+New buildings are added.
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+
+Total length of Market(s) = 16
+Total length of House(s) = 37
+Total length of Office(s) = 12
+
+Skyline Silhouette of Street
+
+                 _____________                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+________  _______|           |             ________     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |      _______|      |____ 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |__|                  |      |                 | 
+|                            |      |                 | 
+|                            |      |                 | 
+|                            |      |                 | 
+|                            | ____ |                 | 
+=======================================================
+0    5    10   15   20   25   30   35   40   45   50   55   
+Testing focus() method for every building. Called from CityBuilding array.
+focus() returned = 21:00
+focus() returned = consulting
+focus() returned = olivia
+focus() returned = ahmet
+focus() returned = burak
+focus() returned = 4
+focus() returned = elif
+focus() returned = 19:00
+---------------------------
+
+
+Testing clone() method.
+Original street
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+Cloned street
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+---------------------------
+
+
+Testing equals() method
+result of street1.equals(street2) is = true
+---------------------------
+
+
+Deleting one building from street2
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  House      17  13  30  elif       black      3         
+7-  Market     43  8   20  george     06:30      19:00     
+
+After deleting result of condition is: false
+---------------------------
+
+street1.hashCode() = 865055831
+
+___TESTING ArrayListStreet class___
+
+
+Empty Street created.
+
+Length of Street is = 55
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+---------------------------
+
+
+House created
+
+House      6   7   5   burak      green      3         
+---------------------------
+
+
+Market created
+
+Market     0   8   20  james      08:00      21:00     
+---------------------------
+
+
+Office created
+
+Office     10  12  20  rachel     consulting           
+---------------------------
+
+
+Playground created
+
+Playground 31  4   1  
+---------------------------
+
+
+house, market, office, and playground are added to street.
+
+
+__Front Side Buildings__
+
+1-  House      6   7   5   burak      green      3         
+2-  Playground 31  4   1  
+
+__Back Side Buildings__
+
+3-  Market     0   8   20  james      08:00      21:00     
+4-  Office     10  12  20  rachel     consulting           
+
+---------------------------
+
+
+All buildings are removed from class with 4 overloaded delete methods.
+
+
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+---------------------------
+
+
+Buildings are added to street oppositely.
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+
+__Back Side Buildings__
+
+3-  House      6   7   5   burak      green      3         
+4-  Playground 31  4   1  
+
+Total remaining lands = 81
+Total number of Buildings = 4
+
+Number of playgrounds = 1
+Ratio of playgrounds = % 7.273
+
+Total length of Market(s) = 8
+Total length of House(s) = 7
+Total length of Office(s) = 12
+---------------------------
+
+
+Skyline Silhouette of Street
+
+________  ____________              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |__|          |              
+|                    |              
+|                    |              
+|                    |              
+|                    |         ____ 
+=======================================================
+0    5    10   15   20   25   30   35   40   45   50   55   
+
+New buildings are added.
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+
+Total length of Market(s) = 16
+Total length of House(s) = 37
+Total length of Office(s) = 12
+
+Skyline Silhouette of Street
+
+                 _____________                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+________  _______|           |             ________     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |      _______|      |____ 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |__|                  |      |                 | 
+|                            |      |                 | 
+|                            |      |                 | 
+|                            |      |                 | 
+|                            | ____ |                 | 
+=======================================================
+0    5    10   15   20   25   30   35   40   45   50   55   
+Testing focus() method for every building. Called from CityBuilding array.
+focus() returned = 21:00
+focus() returned = consulting
+focus() returned = olivia
+focus() returned = ahmet
+focus() returned = burak
+focus() returned = 4
+focus() returned = elif
+focus() returned = 19:00
+---------------------------
+
+
+Testing clone() method.
+Original street
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+Cloned street
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+---------------------------
+
+
+Testing equals() method
+result of street1.equals(street2) is = true
+---------------------------
+
+
+Deleting one building from street2
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  House      17  13  30  elif       black      3         
+7-  Market     43  8   20  george     06:30      19:00     
+
+After deleting result of condition is: false
+---------------------------
+
+street1.hashCode() = 865055831
+
+___TESTING LinkedListStreet class___
+
+
+Empty Street created.
+
+Length of Street is = 55
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+---------------------------
+
+
+House created
+
+House      6   7   5   burak      green      3         
+---------------------------
+
+
+Market created
+
+Market     0   8   20  james      08:00      21:00     
+---------------------------
+
+
+Office created
+
+Office     10  12  20  rachel     consulting           
+---------------------------
+
+
+Playground created
+
+Playground 31  4   1  
+---------------------------
+
+
+house, market, office, and playground are added to street.
+
+
+__Front Side Buildings__
+
+1-  House      6   7   5   burak      green      3         
+2-  Playground 31  4   1  
+
+__Back Side Buildings__
+
+3-  Market     0   8   20  james      08:00      21:00     
+4-  Office     10  12  20  rachel     consulting           
+
+---------------------------
+
+
+All buildings are removed from class with 4 overloaded delete methods.
+
+
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+---------------------------
+
+
+Buildings are added to street oppositely.
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+
+__Back Side Buildings__
+
+3-  House      6   7   5   burak      green      3         
+4-  Playground 31  4   1  
+
+Total remaining lands = 81
+Total number of Buildings = 4
+
+Number of playgrounds = 1
+Ratio of playgrounds = % 7.273
+
+Total length of Market(s) = 8
+Total length of House(s) = 7
+Total length of Office(s) = 12
+---------------------------
+
+
+Skyline Silhouette of Street
+
+________  ____________              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |__|          |              
+|                    |              
+|                    |              
+|                    |              
+|                    |         ____ 
+=======================================================
+0    5    10   15   20   25   30   35   40   45   50   55   
+
+New buildings are added.
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+
+Total length of Market(s) = 16
+Total length of House(s) = 37
+Total length of Office(s) = 12
+
+Skyline Silhouette of Street
+
+                 _____________                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+________  _______|           |             ________     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |      _______|      |____ 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |__|                  |      |                 | 
+|                            |      |                 | 
+|                            |      |                 | 
+|                            |      |                 | 
+|                            | ____ |                 | 
+=======================================================
+0    5    10   15   20   25   30   35   40   45   50   55   
+Testing focus() method for every building. Called from CityBuilding array.
+focus() returned = 21:00
+focus() returned = consulting
+focus() returned = olivia
+focus() returned = ahmet
+focus() returned = burak
+focus() returned = 4
+focus() returned = elif
+focus() returned = 19:00
+---------------------------
+
+
+Testing clone() method.
+Original street
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+Cloned street
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+---------------------------
+
+
+Testing equals() method
+result of street1.equals(street2) is = true
+---------------------------
+
+
+Deleting one building from street2
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  House      17  13  30  elif       black      3         
+7-  Market     43  8   20  george     06:30      19:00     
+
+After deleting result of condition is: false
+---------------------------
+
+street1.hashCode() = 1539860775
+
+___TESTING LDLinkedList class___
+
+Creating and adding elements.
+size() returns = 4
+elma
+armut
+kahve
+kavun
+
+add methods of LDLinkedList and hasNext(), next() methods of custom iterator are tested.
+Removing some elements with iterators remove() method and lists remove methods.
+
+size() returns = 1
+kavun
+
+Some Elements removed successfully.
+Adding elements using other methods.
+
+
+size() returns = 5
+elma2
+elma
+armut
+kavun
+muz
+add method of custom iterator, addLast, addFirst methods of LDLinkedList are tested.
+
+list will be printed backwards using previous, hasprevious.
+size() returns = 5
+muz
+kavun
+armut
+elma
+elma2
+previous, hasprevious methods are tested.
+
+set methods will be used.
+karpuz
+elma
+armut2
+kavun
+muz
+set methods are tested and range based for loop worked fine.
+
+list.getLast() = muz
+list.getFirst() = karpuz
+
+list.get(2) = armut2
+list.contains("karpuz") = true
+
+karpuz
+elma
+armut2
+kavun
+muz
+
+Calling list.clear()
+list.size() = 0
+getters, iterator(), clear() methods are tested.
+
+Testing with different class which is Integer class.
+
+
+Add some elements using iterators.
+size() returns = 3
+3 8 11 
+
+Add more numbers, and delete some using different scenarios.
+
+Before removing: size() returns = 36
+3 8 11 0 3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 
+
+After Removing: size() returns = 32
+8 11 0 3 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 
+
+--All functionalities of LDLinkedList class are tested.
+
+___TESTING LDLinkedListStreet class___
+
+
+Empty Street created.
+
+Length of Street is = 55
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+---------------------------
+
+
+House created
+
+House      6   7   5   burak      green      3         
+---------------------------
+
+
+Market created
+
+Market     0   8   20  james      08:00      21:00     
+---------------------------
+
+
+Office created
+
+Office     10  12  20  rachel     consulting           
+---------------------------
+
+
+Playground created
+
+Playground 31  4   1  
+---------------------------
+
+
+house, market, office, and playground are added to street.
+
+
+__Front Side Buildings__
+
+1-  House      6   7   5   burak      green      3         
+2-  Playground 31  4   1  
+
+__Back Side Buildings__
+
+3-  Market     0   8   20  james      08:00      21:00     
+4-  Office     10  12  20  rachel     consulting           
+
+---------------------------
+
+
+All buildings are removed from class with 4 overloaded delete methods.
+
+
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+---------------------------
+
+
+Buildings are added to street oppositely.
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+
+__Back Side Buildings__
+
+3-  House      6   7   5   burak      green      3         
+4-  Playground 31  4   1  
+
+Total remaining lands = 81
+Total number of Buildings = 4
+
+Number of playgrounds = 1
+Ratio of playgrounds = % 7.273
+
+Total length of Market(s) = 8
+Total length of House(s) = 7
+Total length of Office(s) = 12
+---------------------------
+
+
+Skyline Silhouette of Street
+
+________  ____________              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |  |          |              
+|      |__|          |              
+|                    |              
+|                    |              
+|                    |              
+|                    |         ____ 
+=======================================================
+0    5    10   15   20   25   30   35   40   45   50   55   
+
+New buildings are added.
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+
+Total length of Market(s) = 16
+Total length of House(s) = 37
+Total length of Office(s) = 12
+
+Skyline Silhouette of Street
+
+                 _____________                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+                 |           |                          
+________  _______|           |             ________     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |             |      |     
+|      |  |                  |      _______|      |____ 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |  |                  |      |                 | 
+|      |__|                  |      |                 | 
+|                            |      |                 | 
+|                            |      |                 | 
+|                            |      |                 | 
+|                            | ____ |                 | 
+=======================================================
+0    5    10   15   20   25   30   35   40   45   50   55   
+Testing focus() method for every building. Called from CityBuilding array.
+focus() returned = 21:00
+focus() returned = consulting
+focus() returned = olivia
+focus() returned = ahmet
+focus() returned = burak
+focus() returned = 4
+focus() returned = elif
+focus() returned = 19:00
+---------------------------
+
+
+Testing clone() method.
+Original street
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+Cloned street
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  Playground 31  4   1  
+7-  House      17  13  30  elif       black      3         
+8-  Market     43  8   20  george     06:30      19:00     
+
+---------------------------
+
+
+Testing equals() method
+result of street1.equals(street2) is = true
+---------------------------
+
+
+Deleting one building from street2
+
+
+__Front Side Buildings__
+
+1-  Market     0   8   20  james      08:00      21:00     
+2-  Office     10  12  20  rachel     consulting           
+3-  House      36  10  10  olivia     yellow     3         
+4-  House      48  7   10  ahmet      gray       2         
+
+__Back Side Buildings__
+
+5-  House      6   7   5   burak      green      3         
+6-  House      17  13  30  elif       black      3         
+7-  Market     43  8   20  george     06:30      19:00     
+
+After deleting result of condition is: false
+---------------------------
+
+street1.hashCode() = 1539860775
+
+
+___TESTING EXCEPTIONS___
+
+
+Negative value is entered as number of house in House constructor.
+
+java.lang.Exception: Number of room cannot be negative!
+
+Invalid time format entered as opening time(or closing time) in Market constructor.
+
+java.lang.Exception: Time format is wrong! (Example String format: "08:00")
+
+Negative position, length, or height entered to Office(any CityBuilding class) class.
+
+java.lang.Exception: position cannot be negative!
+
+Negative value is entered as an argument during BasicArrayStreet constructor.
+java.lang.Exception: Length of street cannot be less than 10!
+
+New street is created with no parameter constructor. Its length is 55.
+
+
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+
+Playground is added to street.
+
+
+__Front Side Buildings__
+
+1-  Playground 3   10  1  
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+
+New building is added to conflicting position with playground.
+ 
+java.lang.Exception: Place is occupied! Building cannot be added.
+
+
+New street is created.
+
+
+Playground is added to the street.
+
+
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+1-  Playground 0   15  1  
+
+
+Same object is tried to add to street.
+
+java.lang.Exception: Same CityBuilding object is already added to street!
+
+
+New street is created.
+
+
+Buildings are added to the street.
+
+
+__Front Side Buildings__
+
+1-  House      0   10  15  burak      green      4         
+2-  Market     11  12  3   owner      18:00      21:00     
+
+__Back Side Buildings__
+
+3-  Playground 15  3   1  
+
+
+Trying to access 3th index of front buildings.
+
+java.lang.Exception: Array out of bounds exception.
+
+TESTING ArrayListStreet Exceptions
+
+Negative value is entered as an argument during ArrayListStreet constructor.
+java.lang.Exception: Length of street cannot be less than 10!
+
+New street is created with no parameter constructor. Its length is 55.
+
+
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+
+Playground is added to street.
+
+
+__Front Side Buildings__
+
+1-  Playground 3   10  1  
+
+__Back Side Buildings__
+
+There aren't any building! Please add buildings to back side.
+
+
+New building is added to conflicting position with playground.
+ 
+java.lang.Exception: Place is occupied! Building cannot be added.
+
+
+New street is created.
+
+
+Playground is added to the street.
+
+
+__Front Side Buildings__
+
+There aren't any building! Please add buildings to front side.
+
+__Back Side Buildings__
+
+1-  Playground 0   15  1  
+
+
+Same object is tried to add to street.
+
+java.lang.Exception: Same CityBuilding object is already added to street!
+
+
+New street is created.
+
+
+Buildings are added to the street.
+
+
+__Front Side Buildings__
+
+1-  House      0   10  15  burak      green      4         
+2-  Market     11  12  3   owner      18:00      21:00     
+
+__Back Side Buildings__
+
+3-  Playground 15  3   1  
+
+
+Trying to access 3th index of front buildings.
+
+java.lang.Exception: Array out of bounds exception.
+Exceptions are tested.
+
+
+
+TEST SUMMARY
+1- All 4 street classes constructors are tested.
+2- add and delete methods are tested with their overloads.
+3- All view mode functionalities are tested( like ratio calculation ).
+4- Skyline silhoullette printing is tested.
+5- focus() methods is tested.
+6- clone(), equals(), toString(), hashCode() methods are tested for all classes.
+7- All methods of CityBuilding, House, Market, Office, Playground are tested.
+8- LDLinkedList class and its methods tested. Also its iterator is tested.
+9- All exceptions are tested.
+
