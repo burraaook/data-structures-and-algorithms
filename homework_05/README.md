@@ -5,7 +5,7 @@
 
 # Description  
 
-Implementing Binary Heap, and Binary Search Tree different than their original implementation.  
+Implementing Binary Heap, and Binary Search Tree differently than their original implementation.  
 
 - Binary Heap implementation is made with using node-link structure.(originally it has array based implementation)
 - Binary Search Tree implementation is made with using array structure.(originally it has node link based implementation)
