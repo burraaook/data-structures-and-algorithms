@@ -5,4 +5,4 @@
 
 # Description  
 
-A City Planning Software which uses OOP features. Unit Test is done, and it has menu. More Details are in the Report.  
+A City Planning Software which uses OOP features. Unit Test is done, and it has menu. Details are in the Report.  
