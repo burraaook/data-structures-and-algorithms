@@ -1,2 +1,12 @@
 # data-structures-and-algorithms
- University assignments which are about basic data structures, explanation of their usage, and analysis of the used algorithms.
+ University assignments which are about basic data structures, explanation of their usage, and analysis of the used algorithms.  
+   
+  |  HW   | Topic               | Subject                    |
+  |------ |---------------------|----------------------------|
+  |  [HW1](https://github.com/burraaook/data-structures-and-algorithms/tree/main/homework_01)  | OOP Review, Reporting, Arrays | City Planning Software |
+  |  [HW3](https://github.com/burraaook/data-structures-and-algorithms/tree/main/homework_03)  | Iterator Implementation(ListIterator), LinkedList implementation(with lazy deletion), ArrayList, LinkedList, Theoretical/Empirical Results Comparison | City Planning Software(4 different version) |
+  |  [HW4](https://github.com/burraaook/data-structures-and-algorithms/tree/main/homework_04)  | Recursion | Searching string in greater string, Finding number of integers between two values(binary search), Printing blocks with different configurations |
+  |  [HW5](https://github.com/burraaook/data-structures-and-algorithms/tree/main/homework_05)  | Binary Trees, Binary Heap, Binary Search Tree | Binary Heap implementation with node link structure, Binary Search Tree implementation using array structure |
+  |  [HW6](https://github.com/burraaook/data-structures-and-algorithms/tree/main/homework_06)  | Hashing Techniques(Chaining, Open Addressing, Coalesced Hashing, Double Hashing), Sorting Algorithms, Comparison Of Sorting Algorithms     | Implementing Hash Table which uses Chaining technique with Binary Search Tree, Implementing a Hybrid Hash Table which uses Coalesced, and Double Hashing Technique, Implementing Merge Sort, Quick Sort, and special sorting called New Sort, Compare, and Analyze all implementations  |
+  |  [HW7](https://github.com/burraaook/data-structures-and-algorithms/tree/main/homework_07)  | Self Balancing Trees, Skip List | An algorithm which converts binary tree structure to binary search tree with the elements in given array, Converting a Binary Search Tree to AVL Tree with using rotate operations, Different Skip List Implementation  |
+  |  [HW8](https://github.com/burraaook/data-structures-and-algorithms/tree/main/homework_08)  | Graph Implementation(Adjacency List, and Adjacency Matrix), BFS, DFS, Dijkstra's Algorithm  | Implementing Adjacency List Graph which can grow, and shrink dynamically, Making traversals which are different version of BFS, and DFS in implemented graph, Implement a Dijkstra Algorithm which uses boosting feature |
