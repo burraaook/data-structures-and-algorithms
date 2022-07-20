@@ -5,9 +5,11 @@
 
 # Description  
 
-4 different recursion algorithms which are explained/analyzed in detail in the Report.  
+- Implementing Hash Table which uses Chaining technique with Binary Search Tree.
+- Implementing a Hybrid Hash Table which uses Coalesced, and Double Hashing techniques.
+- HashTableHybrid's remove method cannot work proper for some cases.  
 
-- Recursive algorithm to search a given string in another given bigger string
-- Recursive algorithm to find the number of items in the array between two given integer values.(similar to binary search)
-- Finding contiguous subarray(s) that the sum of its/theirs items is equal to a given integer value.
-- Printing blocks with different configurations.
+- Implementing Merge Sort, and Quick Sort.
+- NewSort is a different sort algorithm which finds minimum, and maximum element puts these element to head and tail. It continues till there is no element. Detailed explanation of the algorithm is in the report.  
+
+- Theoretical/Empirical Analysis is in the report.
