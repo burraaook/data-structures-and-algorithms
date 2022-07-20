@@ -12,4 +12,4 @@
 - Implementing Merge Sort, and Quick Sort.
 - NewSort is a different sort algorithm which finds minimum, and maximum element puts these element to head and tail. It continues till there is no element. Detailed explanation of the algorithm is in the report.  
 
-- Theoretical/Empirical Analyses are in the report.
+- Theoretical/Empirical Analyses, test results/cases, and other details are in the report.

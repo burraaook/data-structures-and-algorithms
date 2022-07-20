@@ -9,4 +9,4 @@ Implementing Binary Heap, and Binary Search Tree differently than their original
 
 - Binary Heap implementation is made with using node-link structure.(originally it has array based implementation)
 - Binary Search Tree implementation is made with using array structure.(originally it has node link based implementation)
-- Complexity Analysis, and more details are in the Report.
+- Complexity Analyses, detailed explanations of implementations/algorithms, test cases/results are in the report.
